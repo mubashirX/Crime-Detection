@@ -84,7 +84,7 @@ Showing top 5 Judgments that can possibly be implemented in that situation
 <img width="466" alt="punis" src="https://github.com/mubashirX/Crime-Detection/assets/112867358/031ed629-006d-4479-88b6-85723ccd0ae3">
 
 ## Trained Model
-The training of the model takes up to 1.5 hours in the free version of Google Collab, So to make sure we save time we saved the trained model in the "pth" file so we do not have to train it again and again instead just load it after download "pth file"
+The training of the model takes up to 1.5 hours in the free version of Google Collab, So to make sure we save time we saved the trained model in the "pth" file so we do not have to train it again and again instead just load it after download "pth file".link at end
 
 <img width="619" alt="model load" src="https://github.com/mubashirX/Crime-Detection/assets/112867358/d872ba68-e96f-4b6d-b87c-2d0a67ce64cf">
 
@@ -106,4 +106,5 @@ We use streamlit to create an interface for our model.
 # Conclusion:
 In conclusion, this project demonstrates the effectiveness of utilizing BERT for crime classification and punishment recommendation. By automating these tasks, law enforcement agencies and legal practitioners can streamline the process of identifying crimes and recommending suitable punishments, thereby enhancing efficiency and accuracy in the criminal justice system.
 
+"bert_sentiment_model.pth" link https://drive.google.com/file/d/1zEq2Xwbao3iQ2CW4wMTuwOHJ6tLU7tw-/view?usp=drive_link
 ---
