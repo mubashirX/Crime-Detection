@@ -7,14 +7,16 @@ This project aims to automate the process of classifying crime news articles and
 ## Dataset:
 The dataset used in this project consists of crime news articles paired with their corresponding crime labels. These labels include categories such as Murder, Kidnap, Drug, Fraud, etc. Additionally, a separate dataset containing predefined punishments is utilized for punishment recommendation.
 
-## Preprocessing:
+## Preprocessing:(Optional in our case)
 Preprocessing plays a crucial role in preparing the data for model training. In this project, several preprocessing techniques are applied to the crime news data:
 
 - **Tokenization:** Tokenization involves breaking down the raw text into individual tokens or words. In our case, we tokenize the crime news articles to convert them into a format suitable for input into the BERT model. Tokenization allows the model to understand the textual data at the word level, capturing semantic meaning and context.
 
-- **Padding:** To ensure uniformity in input size, we apply padding to the tokenized sequences. Padding involves adding special tokens to the sequences so that they all have the same length. This is necessary because BERT, like many deep learning models, requires inputs of fixed dimensions. Padding ensures that shorter sequences match the length of the longest sequence in the dataset, enabling efficient batch processing during training.
+- **Padding:** To ensure uniformity in input size, we apply padding to the tokenized sequences. Padding involves adding special tokens to the sequences so that they all have the same length. This is necessary because BERT, like many deep learning models, requires inputs of fixed dimensions. The padding ensures that shorter sequences match the length of the longest sequence in the dataset, enabling efficient batch processing during training.
 
 - **Label Encoding:** Since our target labels are categorical (e.g., Murder, Kidnap, Drug), we encode them into numerical format using label encoding. Label encoding assigns a unique numerical identifier to each category, facilitating the model's understanding of the target variable during training. It converts categorical labels into a format that can be processed by machine learning algorithms.
+
+- *As we use the Bert Model, it also provides a Bert tokenizer, which almost did all preprocessing work for us*
 
 ## Model Architecture:
 The core of this project's model architecture is based on BERT, a state-of-the-art transformer-based model. BERT is pre-trained on a large corpus of text data and fine-tuned for sequence classification tasks. The BERT model used here is a pre-trained version of BERT-base-uncased.
