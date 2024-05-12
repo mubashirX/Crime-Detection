@@ -106,5 +106,11 @@ We use streamlit to create an interface for our model.
 # Conclusion:
 In conclusion, this project demonstrates the effectiveness of utilizing BERT for crime classification and punishment recommendation. By automating these tasks, law enforcement agencies and legal practitioners can streamline the process of identifying crimes and recommending suitable punishments, thereby enhancing efficiency and accuracy in the criminal justice system.
 
-"bert_sentiment_model.pth" link https://drive.google.com/file/d/1zEq2Xwbao3iQ2CW4wMTuwOHJ6tLU7tw-/view?usp=drive_link
+
+ "bert_sentiment_model.pth" link https://drive.google.com/file/d/1zEq2Xwbao3iQ2CW4wMTuwOHJ6tLU7tw-/view?usp=drive_link
+
+# FLOWCHART
+![Untitled diagram-2024-05-12-062556](https://github.com/mubashirX/Crime-Detection/assets/112867358/b2d97b5e-6b11-4d81-93bd-ad6087f47eae)
+
+
 ---
