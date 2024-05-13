@@ -9,6 +9,15 @@ The dataset used in this project consists of crime news articles paired with the
 
 <img width="322" alt="Dataset" src="https://github.com/mubashirX/Crime-Detection/assets/112867358/6a3e3dbf-ff84-4ffa-93e7-3fb009175b00">
 
+We have Four Labels in our Crime Dataset which are Fraud,Drug,Murder and Kidnap and the data is balanced to avoid overfitting as seen in the graph
+
+![crime label](https://github.com/mubashirX/Crime-Detection/assets/113856640/09eb92a1-dba0-4e80-b32b-d7ac4e41e49b)
+
+Our csv file containing punishments according to crime looked like this
+
+![Screenshot 2024-05-13 212551](https://github.com/mubashirX/Crime-Detection/assets/113856640/02a60884-e54d-4da4-aa47-6fea2bd8b9f8)
+
+
 ### Punishment Dataset
 
 <img width="876" alt="judge" src="https://github.com/mubashirX/Crime-Detection/assets/112867358/3af28949-3c22-4071-9907-6ffe4e60f2c4">
